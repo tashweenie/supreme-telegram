@@ -10,9 +10,6 @@
         <h1> U&I</h1>
         <h2> im sorry i made you mad<3</h2>
 
-    </header>
-
-    <main>
 <div class="container">
     <h1>Photos of us :D</h1>
     <div class="image-container">

@@ -1,1 +1,62 @@
-# supreme-telegram
+# Eres hermosa
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header style="background-color: rgb(56, 5, 138);">
+        <h1> U&I</h1>
+        <h2> im sorry i made you mad<3</h2>
+
+    </header>
+
+    <main>
+<div class="container">
+    <h1>Photos of us :D</h1>
+    <div class="image-container">
+        <div class="image"><img src="images/img-1.jpg" alt=""></div>
+        <div class="image"><img src="images/img-2.jpg" alt=""></div>
+        <div class="image"><img src="images/img-3.jpg" alt=""></div>
+        <div class="image"><img src="images/img-4.jpg" alt=""></div>
+        <div class="image"><img src="images/img-5.jpg" alt=""></div>
+        <div class="image"><img src="images/img-6.jpg" alt=""></div>
+        <div class="image"><img src="images/img-7.jpg" alt=""></div>
+        <div class="image"><img src="images/img-8.jpg" alt=""></div>
+    </div>
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="Captures/images/img-1.jpg" alt="">
+    </div>
+
+</div>
+<script>
+
+    document.querySelectorAll('.image-container img').forEach(image=>{
+image.onclick = () =>{
+    document.querySelector('.popup-image').style.display = 'block';
+    document.querySelector('.popup-image img').src = image.getAttribute('src');
+}
+    });
+
+    document.querySelector('.popup-image span').onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'none';
+    }
+</script>
+<br>
+<br>
+<hr>
+<h2> videos abt you :D</h2>
+<video controls src="Download (1).mp4"></video>
+<video controls src="Download.mp4"></video>
+<br>
+<br>
+<h2> <mark> click the link for a surprise</mark> </h2>
+<a href="flowers.html" target="_blank" title="SURPRISEEEE">
+    CLICK MEEEE
+</a>
+    </main>
+    
+</body>
+</html>
